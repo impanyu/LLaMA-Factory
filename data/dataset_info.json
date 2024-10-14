@@ -1,6 +1,20 @@
 {
- "in_context_db": {
-  "file_name": "in_context_db.json",
+ "in_context_db_few_shot": {
+  "file_name": "in_context_db_few_shot.json",
+  "formatting": "sharegpt",
+  "columns": {
+    "messages": "messages"
+  },
+  "tags": {
+    "role_tag": "role",
+    "content_tag": "content",
+    "user_tag": "user",
+    "assistant_tag": "assistant",
+    "system_tag": "system"
+  }
+},
+"in_context_db_zero_shot": {
+  "file_name": "in_context_db_zero_shot.json",
   "formatting": "sharegpt",
   "columns": {
     "messages": "messages"
